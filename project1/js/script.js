@@ -35,12 +35,6 @@
     };
     $cartToggle.on( 'click', performCartToggle );
     
-    /**
-     * Function for manipulating a sibling input of type "number"
-     * from an event fired. Relies on the control for increasing
-     * the number to have a class of .plus. Also requires a min
-     * attribute set on the number to know what not to go below.
-     */
     var manipulateNumberInput = function(e) {
       
       e.preventDefault(); // Prevent default action.
@@ -49,13 +43,10 @@
           currentValue  = $numberInput.val() != '' && $numberInput.val() || 1,
           adjustedValue = parseInt( currentValue ) + ($(this).hasClass('plus') && 1 || -1);
       
-      $numberInput.val( adjustedValue ).trigger('change'); // Adjust the number input value, trigger onChange.
-      
+      $numberInput.val( adjustedValue ).trigger('change'); 
     }
     
-    /**
-     * Runs onchange to keep numbers between max/min values.
-     */
+    
     var validateNumberInput = function(e) {
       
       var $numberInput = $(this),
@@ -68,7 +59,7 @@
       
     }
     
-    // Find number controls, attach click events.
+
     var $numberControls = $('.js-number-control');
     $numberControls.on( 'click', manipulateNumberInput );
     
@@ -76,6 +67,6 @@
     var $numberInputs = $('input[type=number]');
     $numberInputs.on( 'change', validateNumberInput );
 
-  }); // Document Ready
+  }); 
 
 })(jQuery); // Map jQuery => $

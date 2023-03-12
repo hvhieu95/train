@@ -1,11 +1,3 @@
-/**
- * @TODO:
- *  1. Refactor a bit, is messy.
- *  2. Colors good, fonts meh.
- *  3. Finish actual cart layout.
- *  4. Wire up various data bits in UI.
- *  5. Pull data out of mockup in JS layer.
- */
 html,
 body {
   height: 100%;
@@ -96,7 +88,7 @@ a:active {
 .site-header ul button.have-items {
   color: #b8d87f;
 }
-/* @TODO */
+
 .site-header ul button.have-items {
   position: relative;
 }
@@ -221,17 +213,17 @@ a:active {
   color: #b8d87f;
   background-color: #2b2e35;
 }
-.camera {
-  background-image: url(https://imgur.com/fP6yjZ3.jpg);
+.airjordan {
+  background-image: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/23696ebc-18fc-46f9-8a88-c854930ad24c/%E3%82%A8%E3%82%A2-%E3%82%B8%E3%83%A7%E3%83%BC%E3%83%80%E3%83%B3-1-%E3%83%AC%E3%83%88%E3%83%AD-high-%E3%82%A6%E3%82%A3%E3%83%A1%E3%83%B3%E3%82%BA%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-zlcXfl.png);
 }
-.watch {
-  background-image: url(https://imgur.com/DWMEYH3.jpg);
+.nikedunk {
+  background-image: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7327a347-6081-442c-af41-a531da9a57de/%E3%83%8A%E3%82%A4%E3%82%AD-%E3%83%80%E3%83%B3%E3%82%AF-high-%E3%83%AC%E3%83%88%E3%83%AD-%E3%83%A1%E3%83%B3%E3%82%BA%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-bMDVdh.png);
 }
-.typewriter {
-  background-image: url(https://imgur.com/DVT28Z6.jpg);
+.nikeairforce {
+  background-image: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/04421d64-7214-4718-ba73-93e6d1447bac/%E3%83%8A%E3%82%A4%E3%82%AD-%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B9-1-mid-07-%E3%83%A1%E3%83%B3%E3%82%BA%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-8xgpLK.png);
 }
-.canoe {
-  background-image: url(https://imgur.com/SC1jz9L.jpg);
+.white {
+  background-image: url(https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e3ec0d0a-219a-4daf-a376-8540b904b3bf/%E3%83%8A%E3%82%A4%E3%82%AD-%E3%82%A8%E3%82%A2-%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B9-1-07-60-%E3%83%A1%E3%83%B3%E3%82%BA%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-vRrsPF.png);
 }
 .site-footer {
   height: 230px;

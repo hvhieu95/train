@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   
+    <title>SHOPPING NOW</title>
+    
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,400italic'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css'>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>HIEU HOANG</h1>
+ <p>最高は唯一無二</p>
+
+ </div>
+ </header>
+      
+ <main>
+
+<div class="wrapper">
+
+  <header class="site-header">
+    <div class="inner-wrap">
+      <h1>ショッピング</h1>
+      <ul class="list-inline">
+        <li><a href="#" class="search"><i class="fa fa-search"></i></a></li>
+        <li><a href="#" class="account">ログイン</a></li>
+        <li><button class="your-cart js-toggle-cart" data-item-num="3">買い物かご <i class="fa fa-lg fa-shopping-cart"></i></button></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="site-toolbar">
+    <div class="inner-wrap clearfix">
+      <div class="notifications animated"><span>素晴らしい製品は</span> カートに追加されました!</div>
+    </div>
+  </div>
+
+  <div class="filter-grid">
+    <div class="inner-wrap">
+      <div class="filter-cell">
+        <select class="form-control">
+          <option value="*">カテゴリー</option>
+          <option value="fav">お気に入り</option>
+        </select>
+      </div>
+      <div class="filter-cell">
+        <select class="form-control">
+          <option  value="*">製品のタイプ</option>
+        
+        </select>
+      </div>
+      <div class="filter-cell">
+        <select class="form-control" disabled="true">
+          <option>値段</option>
+        </select>
+      </div>
+      <div class="filter-cell">
+        <select class="form-control" disabled="true">
+          <option>ブランド</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="inner-wrap content-wrap">
+
+    <div class="product-grid">
+      <div class="grid-product square fav">
+        <div class="img-name airjordan"><h4>Air Jordan</h4></div>
+        <p class="price">4000¥ <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product circular fav">
+        <div class="img-name nikedunk"><h4>Nike Dunk</h4></div>
+        <p class="price">6000¥ <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product square">
+        <div class="img-name nikeairforce"><h4>Nike air force</h4></div>
+        <p class="price">6000¥ <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      <div class="grid-product">
+        <div class="img-name white"><h4>White</h4></div>
+        <p class="price">7000¥ <button class="add-to-cart js-add-to-cart btn">Add</button><p>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="sticky"></div>
+
+</div>
+
+
+<div class="cart">
+  
+  <div class="inner-wrap">
+    <h2>ショッピングカート</h2>
+    
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th class="product-remove">削除</th>
+          <th class="product-name">アイテム</th>
+          <th class="product-price">値段</th>
+          <th class="product-quantity">量</th>
+          <th class="product-line-total">合計</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="product-sneaker">
+          <td><button type="button" class="product-remove" data-id="product-sneaker"><i class="fa fa-times"></i></button></td>
+          <td>スニーカー</td>
+          <td class="product-price" data-price="3.99">3.99</td>
+          <td class="product-quantity">
+            <input type="number" pattern="\d*" step="1" min="1" max="5" value="1" data-id="product-sneaker">
+            <button class="plus js-number-control">
+              <i class="fa fa-plus-square"></i>
+            </button>
+            <button class="minus js-number-control">
+              <i class="fa fa-minus-square"></i>
+            </button>
+          </td>
+          <td class="product-line-total" id="product-sneaker-total" data-line-total="3.99">3.99</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+
+</div>
+
+ </main>
+ 
+      
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js'></script>
+<script  src="./js/script.js"></script>
+  
+  </body>
+</html>
